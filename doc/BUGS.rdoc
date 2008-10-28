@@ -1,0 +1,6 @@
+= Renamer - The perfect tool to easily rename your files
+
+== Known bugs:
+Last Modified: 2006-04-24
+
+* Using of wildcards on the command-line only works for unix shells we must use Dir[] if we want this feature to be available on other systems (MS-Windows for example).

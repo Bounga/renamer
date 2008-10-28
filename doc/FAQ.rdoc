@@ -1,0 +1,86 @@
+= Renamer - The perfect tool to easily rename your files
+
+<em>Last Modified: 2008-10-22</em>
+
+
+== 1. Installing
+
+=== 1.1. I don't understand how to compile Renamer.
+
+No problem ! :-)
+
+You don't have to compile Renamer because it is written in Ruby. Ruby is a
+scripting language. It means that all the code is interpreted at run time by
+the Ruby interpretor. So to use it, you just have to type :
+
+<tt>$ renamer --help</tt>
+
+on the command-line if it is well installed.
+
+=== 1.2. How do I install Renamer on my system?
+
+To install Renamer from the official gem, you just must have the Gem packaging
+system installed (http://rubygems.rubyforge.org) and type
+
+<tt># gem install Renamer</tt>
+
+and if you've already downloaded the gem, you have to type :
+
+<tt># gem install Renamer-X.X.X.gem</tt>
+
+where <em>X.X.X</em> has to be replace by the gem version number.
+
+This will install all the required files in the good directories. That's all, you can now type :
+
+<tt>$ renamer --help</tt>
+
+
+== 2. Using Renamer
+
+=== 2.1. Why using Renamer ?
+
+Because Renamer makes it easy to rename any number of files on any filesystem
+without knowing anything about shell scripting or regular expressions (regexp).
+Renamer is able to lowercase, uppercase, delete white-spaces and a lot more. It's
+fast, light and easy to use.
+
+=== 2.2. I've launched Renamer, but I'm lost, what can I do?
+
+Renamer is very easy to use, if you don't know how to use it you can type :
+
+<tt>$ renamer --help</tt>
+
+It will show you some help about the possible options and how to use them.
+
+== 3. Development
+
+=== 3.1. How should I report bugs?
+
+You can submit your bug at http://bounga.lighthouseapp.com/projects/18642-renamer/tickets/new with <em>bug</em> tag
+
+=== 3.2.  How should I submit patches?
+
+You can submit your patch at http://bounga.lighthouseapp.com/projects/18642-renamer/tickets/new with <em>patch</em> tag
+
+=== 3.3.  How should I submit new feature request?
+
+You can submit your request at http://bounga.lighthouseapp.com/projects/18642-renamer/tickets/new with <em>feature</em> tag
+
+=== 3.4.  Will Renamer be ported to *BSD, QNX, MacOS X, Microsoft Windows ?
+
+Yes. In fact, it's surely already usable for these OS and all OS that have a
+Ruby interpreter. Ruby is very portable and we don't have to modify the source
+code to allow it to run on various OS. You have to know that developers use
+Unix-like OS so it's was not tested on Microsoft Windows.
+
+=== 3.5.  I want to help Renamer developers. What can I do?
+
+There's many tasks to do (code, documentation, ...). Please contact us
+using IRC or e-mail, and look at this page: http://bounga.lighthouseapp.com/projects/18642-renamer/tickets?q=state%3Aopen
+It lists all the open tasks. You can also look at the TODO and BUGS files
+available in the package.
+
+=== 3.6.  Can I give money or other things to Renamer developers?
+
+If you really want to do this you can. You should contact a developer to know
+what to do.

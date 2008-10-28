@@ -1,0 +1,37 @@
+= Renamer - The perfect tool to easily rename your files
+
+In order to keep the code nice and clean we have a few requirements you'll
+need to stick to in order to get your patches accepted.
+
+== General Rules
+
+* All text files should use Unix-style text format
+* All text files should use UTF-8 as charset
+* All code files should use the .rb extension
+* All existing copyright notices must be retained. You can add your own if necessary
+* All strings should be translatable (Using Ruby-GetText[http://ponx.s5.xrea.com/hiki/ruby-gettext.html])
+
+== Coding Style
+
+It can be a little annoying to change your coding style if you're used to something else, but we need to use only one style
+to allow people to read the code and understand it easily.
+
+* Use 2-space tabs for indentation and expand tabs to spaces (if you use VIM, <tt>set ts=2</tt> and <tt>set et</tt>). Don't use tabs at all.
+* Join words of class names by capitalizing the first letter of each word (CamelCase)
+* Join words of method names and variables with underscores
+* Constants should always be in uppercase and should have words separated by undescores
+* Use plural names for arrays, hashes, ...
+* Methods and functions should always have sensible defaults if possible
+* Strings should be defined using double quotes where possible
+* Space should be used liberally - don't be afraid to spread things out a little to gain some clarity. Generally, there should be one space between brackets and normal statements, but no space between brackets and variables, methods or functions
+* For code blocks, use <tt>{ ... }</tt> when they can be written into a single line, otherwise use <tt>do ... end</tt>
+* When setting properties of objects, always use foo= instead of set_foo
+* When a method returns a boolean, always use foo?
+* Comment your code using RDoc style
+
+== Patches
+
+* Always provide patches in unified form (diff -u) and with a ChangeLog entry
+* Always provide Unit Test for all the functionnalities you've added
+
+If you think that your patch sticks these requirements you can send at http://bounga.lighthouseapp.com/projects/18642-renamer/tickets/new with <em>patch</em> tag

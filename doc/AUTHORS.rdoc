@@ -1,0 +1,10 @@
+= Renamer - The perfect tool to easily rename your files
+
+== Developers
+
+=== Maintainer
+
+Nicolas Cavigneaux <mailto:nico@bounga.org>
+* Web   : http://www.bounga.org
+* IRC   : Bounga@irc.freenode.net
+* Jabber: Bounga@jabber.fr

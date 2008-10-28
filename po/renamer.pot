@@ -1,0 +1,137 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.5.0\n"
+"POT-Creation-Date: 2008-10-27 20:48+0100\n"
+"PO-Revision-Date: 2005-12-16 21:30+0100\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: bin/renamer:73
+msgid "Usage: %s [options] FILENAMES"
+msgstr ""
+
+#: bin/renamer:75
+msgid "Specific options:"
+msgstr ""
+
+#: bin/renamer:77
+msgid "Downcase FILENAMES"
+msgstr ""
+
+#: bin/renamer:78
+msgid "Upcase FILENAMES"
+msgstr ""
+
+#: bin/renamer:79
+msgid "Capitalize FILENAMES"
+msgstr ""
+
+#: bin/renamer:80
+msgid "Capitalize each words in FILENAMES"
+msgstr ""
+
+#: bin/renamer:81
+msgid "Downcase FILENAMES extensions"
+msgstr ""
+
+#: bin/renamer:82
+msgid "Upcase FILENAMES extensions"
+msgstr ""
+
+#: bin/renamer:83
+msgid "Replace spaces by underscores in FILENAMES"
+msgstr ""
+
+#: bin/renamer:84
+msgid "Replace underscores by spaces in FILENAMES"
+msgstr ""
+
+#: bin/renamer:85
+msgid "Add current date to the beginning of FILENAMES"
+msgstr ""
+
+#: bin/renamer:86
+msgid "Add current datetime to the beginning of FILENAMES"
+msgstr ""
+
+#: bin/renamer:87
+msgid "--basename BASENAME"
+msgstr ""
+
+#: bin/renamer:87
+msgid "Rename FILENAMES using the specified"
+msgstr ""
+
+#: bin/renamer:87
+msgid "BASENAME followed by an incremental number"
+msgstr ""
+
+#: bin/renamer:88
+msgid "--ext NEW"
+msgstr ""
+
+#: bin/renamer:88
+msgid "Rename FILENAMES from their actual extension"
+msgstr ""
+
+#: bin/renamer:88 bin/renamer:90
+msgid "to the NEW one"
+msgstr ""
+
+#: bin/renamer:89
+msgid "Rename FILENAMES by trimming first n characters"
+msgstr ""
+
+#: bin/renamer:90
+msgid "Rename FILENAMES by trimming last n characters"
+msgstr ""
+
+#: bin/renamer:91
+msgid "Run %s recursively across directories"
+msgstr ""
+
+#: bin/renamer:92
+msgid "Overwrite existing files if needed"
+msgstr ""
+
+#: bin/renamer:95
+msgid "Common options:"
+msgstr ""
+
+#: bin/renamer:97
+msgid "Show this help"
+msgstr ""
+
+#: bin/renamer:98
+msgid "Show %s version"
+msgstr ""
+
+#: bin/renamer:99
+msgid "Show some information about %s license"
+msgstr ""
+
+#: bin/renamer:100
+msgid "Run %s in verbose mode (quiet by default)"
+msgstr ""
+
+#: lib/renamer.rb:30
+msgid "%s: %s file already exists!"
+msgstr ""
+
+#: lib/renamer.rb:265
+msgid "%s: You don't have write access on %s"
+msgstr ""
+
+#: lib/renamer.rb:268
+msgid "%s: File %s doesn't exists!"
+msgstr ""

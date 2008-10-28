@@ -1,0 +1,216 @@
+= Renamer - The perfect tool to easily rename your files
+
+
+=== Renamer 0.5.0
+
+2008-10-22 Nicolas Cavigneaux <nico@bounga.org>
+
+	* Improved Rakefile
+	* Now explicitly use RDoc format for documentation
+	* Updated infos
+
+=== Renamer 0.4.4
+
+2006-07-14 Nicolas Cavigneaux <nico@bounga.org>
+
+	* Added forgotten .mo files in packages so I18N works again
+
+=== Renamer 0.4.3
+
+2006-05-17 Nicolas Cavigneaux <nico@bounga.org>
+
+    * Corrected bug with constants in Rakefile
+    * Added methods to lowercase/uppercase extensions only
+    * Added Unit Tests
+    * Updated documentation
+    * Updated POT file
+    * Updated french translation
+
+=== Renamer 0.4.2
+
+2006-04-27 Nicolas Cavigneaux <nico@bounga.org>
+
+    * Added overwrite mode
+    * Added Unit Tests
+    * Updated documentation
+    * Updated POT file
+    * Updated french translation
+    * Improved Rakefile
+
+2006-04-24 Nicolas Cavigneaux <nico@bounga.org>
+
+    * Corrected bug in Renamer#ext() (don't process dotfiles even in subdirectories)
+    * Added Unit Test
+
+2006-03-13 Nicolas Cavigneaux <nico@bounga.org>
+
+    * Updated doc
+
+2006-02-05 Nicolas Cavigneaux <nico@bounga.org>
+
+    * Updated Rakefile
+    * Corrected i18n strings displaying bug
+    * Updated POT file
+    * Updated french translation
+
+2006-01-26 Nicolas Cavigneaux <nico@bounga.org>
+
+    * Updated info about how to install Renamer
+
+2006-01-16 Nicolas Cavigneaux <nico@bounga.org>
+
+    * Added verbose/quiet modes
+    * Updated TODO, doc/renamer files
+    * Updated error messages
+    * Updated french translation
+    * Corrected typo in french translation
+
+=== Renamer 0.4.1
+
+2006-01-13 Nicolas Cavigneaux <nico@bounga.org>
+
+    * Improved "rename_fs" method (now use Tempfile class)
+    * Improved renaming, it now uses absolute pathnames
+    * Added a "require" to test/tc_renamer.rb to make it works with
+    Tempfile class
+    * Updated TODO file
+
+=== Renamer 0.4.0
+
+2006-01-07 Nicolas Cavigneaux <nico@bounga.org>
+
+    * Corrected renaming files in subdirectories bug
+    * Added a function that can do recursive actions on filenames
+    * Added Unit Tests
+    * Updated README, TODO and Renamer documentation files
+    * Added french translation
+
+2006-01-05 Nicolas Cavigneaux <nico@bounga.org>
+
+    * Updated copyright in all files
+    * Updated FSF address in all files
+    * Corrected various bugs in capitalize_words method
+    * Corrected various bugs in ext method
+
+2005-12-25 Nicolas Cavigneaux <nico@bounga.org>
+
+    * Added Unit Tests
+
+2005-12-22 Nicolas Cavigneaux <nico@bounga.org>
+
+    * Error mesages are now print using warn to easily handle verbosity levels
+
+2005-12-22 Nicolas Cavigneaux <nico@bounga.org>
+
+    * Improved MO creation rake task
+    * Updated TODO file
+
+2005-12-16 Nicolas Cavigneaux <nico@bounga.org>
+
+    * Localized strings using Ruby-GetText
+    * Created a Rakefile to easily handle common tasks (see rake -T)
+
+2005-12-15 Nicolas Cavigneaux <nico@bounga.org>
+
+    * Moved from procedural to OO-code
+    * License is now in a constant not in a dediacted function anymore
+    * Moved lib/functions.rb to lib/renamer.rb
+    * Converted AUTHORS, BUGS, TODO plain-text files to rdoc format
+    * Commented code using rdoc
+    * Updated renamer.gemspec
+    * Updated TODO file
+
+2005-12-13 Nicolas Cavigneaux <nico@bounga.org>
+
+    * Switched command-line parsing from GetOptLong to OptParse
+    * Removed help() function since itsn't needed anymore (lib/functions.rb)
+    * Updated TODO file
+
+2005-12-08 Nicolas Cavigneaux <nico@bounga.org>
+
+    * Corrected typo in help() (lib/functions.rb)
+    * Switched renamer documentation (doc/renamer) to rdoc format
+    * Updated renamer documentation (doc/renamer)
+
+2005-12-08 Nicolas Cavigneaux <nico@bounga.org>
+
+    * Converted FAQ, HACKING, README plain-text files to rdoc format
+    * Updated AUTHORS, README, FAQ and TODO files
+    * Removed timestamps since it's SCM job to track files
+    * Added HACKING file
+
+2005-11-21 Nicolas Cavigneaux <nico@bounga.org>
+
+    * Added one level to release numbers (X.X.X) to be able to release
+    often
+    * Moved from tar/makefile to Gem packaging system
+    * Updated const.rb
+
+2005-05-12  Nicolas Cavigneaux  <nico@bounga.org>
+
+    * Updated my information (website, email) in all files
+    * Converted all files to UTF-8 encoding
+
+2005-01-12  Nicolas Cavigneaux  <nico@bounga.ath.cx>
+
+    * Modified ProcBN, renaming using a basename now creates
+    filenames using a 4 digits number at the end (0000 up to 9999)
+    * Added src/const.rb to easily share constants
+    * Updated Makefile to handle src/const.rb
+    * Updated src/renamer and src/functions.rb to use Const module
+
+2005-01-05  Nicolas Cavigneaux  <nico@bounga.ath.cx>
+
+    * Updated copyright informations for year 2005
+
+2004-12-30  Nicolas Cavigneaux  <nico@bounga.ath.cx>
+
+    * Added "capitalize", "each word capitalize" and "underscores to
+    withespaces" functions
+    * Updated man page
+    * Corrected "renamer -e '' files*" bug that left a dot at the end
+    of filenames
+    * Cleaned-up the code, it's now much more maintainable
+
+2004-12-29  Nicolas Cavigneaux  <nico@bounga.ath.cx>
+
+    * Libraries are now stored in /usr/lib/renamer/ according to
+    FHS recommendations
+    * "#!/usr/bin/ruby -w" was removed from src/functions.rb since
+    it mustn't be run alone
+
+2004-12-28 Nicolas Cavigneaux <nico@bounga.ath.cx>
+
+    * Added version informations (-v trigger)
+    * Added doc/renamer.1.gz (Man page) file
+    * Removed GPL, INSTALL files
+    * Updated AUTHORS, BUGS, COPYING, ChangeLog.gz, FAQ , README, TODO
+    files to use the same standard as my other projects
+    * Corrected typo of doc/renamer_fr.texi
+    * Updated Makefile to handle the structure changes
+    * ChangeLog is now "gzip -9"
+
+=== Renamer 0.3
+
+2004-05-29  Nicolas Cavigneaux  <nico@bounga.ath.cx>
+
+    * Added file permissions handling
+    * Error messages are now redirected to stderr
+    * Added a function to rename files from an extension to another one
+    (renamer -e *.html *.php)
+    * Fixed case where the user doesn't give any option on the command-line
+
+=== Renamer 0.2
+
+2004-03-12  Nicolas Cavigneaux  <nico@bounga.ath.cx>
+
+    * Created the Makefile to automate the installation
+    * Added a function to rename files based on file-base-name
+
+=== Renamer 0.1
+
+2004-02-09  Nicolas Cavigneaux  <nico@bounga.ath.cx>
+
+    * Lowercase the filenames
+    * Uppercase the filenames
+    * Delete spaces in the filenames

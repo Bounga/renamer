@@ -1,0 +1,49 @@
+= Renamer - The perfect tool to easily rename your files
+
+Renamer is a fast and light utility to rename your files on all file systems.
+It allows you to do a lot of renaming tasks without requiering any specific knowledge.
+Everything is done from the command-line and you can use it from a script-shell or
+another program.
+
+Renamer can:
+* lowercase a list of filenames
+* uppercase a list of filenames
+* delete white-spaces of filenames
+* replace underscores by spaces in filenames
+* capitalize filenames
+* rename files using a specified basename followed by an incremental number
+* rename files from their actual extension to a specified one
+* do recursive actions
+* and more (Renamer is always evolving) ...
+* is developed from scratch (not based on any other code)
+* multi-platform (GNU/Linux, *BSD, Windows & other)
+* 100% GPL & free
+
+===Requirements
+
+* Ruby >= 1.8.0  (http://www.ruby-lang.org)
+* RubyGem >= 0.8.0 (http://rubygem.rubyforge.org)
+
+===Install
+
+<tt>$ sudo gem install Renamer</tt>
+
+===Usage
+
+<tt>$ renamer -h</tt> for more information
+
+===License
+
+Renamer is distributed under the terms of the GNU General Public License.
+
+See the COPYING file for more information.
+
+===Copyright
+
+Renamer (c) Copyright 2004-2008
+by Nicolas Cavigneaux <nico@bounga.org>
+
+=== Other
+More information on project homepage (http://www.bitbucket.org/Bounga/renamer)
+
+Comments, suggestions, patches are welcome on the ticket system (http://www.bitbucket.org/Bounga/renamer/issues/new/)

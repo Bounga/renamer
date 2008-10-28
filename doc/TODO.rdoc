@@ -1,0 +1,18 @@
+= Renamer - The perfect tool to easily rename your files
+
+== To Do List
+
+Send suggestions for this list on 
+http://bounga.lighthouseapp.com/projects/18642-renamer/tickets/new with <em>feature</em> tag.
+
+
+=== Before next release
+
+* Add a method to rename files using current date/time
+* Add a method to delete the "n" first/last characters
+
+=== Future releases
+
+* Any idea ? Feel free to contact developers
+
+(Doned items are moved to ChangeLog file)

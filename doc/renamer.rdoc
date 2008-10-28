@@ -1,0 +1,115 @@
+= Renamer - The perfect tool to easily rename your files
+
+<b>Documentation for Renamer v0.5.0</b>
+
+<em>Last Modified: 2008-10-22</em>
+
+<em>Copyright (c) 2004-2008 by Nicolas Cavigneaux <nico@bounga.org></em>
+
+Permission is granted to copy, distribute and/or modify this document
+under the terms of the {GNU General Public License}[http://www.gnu.org/copyleft/gpl.html], version 3 or later.
+
+== Introduction
+
+=== Description
+
+Renamer is a tool that makes it easy to rename any number of files on any filesystem without knowing anything about shell scripting or regular expressions (regexp). Renamer is fast, light and is always evolving.
+
+Its main features are :
+* lowercase filenames
+* uppercase filenames
+* delete white-spaces from filenames
+* capitalize filenames
+* capitalize each words in filenames
+* lowercase filename extensions
+* uppercase filename extensions
+* delete spaces in filenames
+* replace underscores by spaces in filenames
+* rename filenames using the specified basename followed by an incremental number
+* rename filenames from their actual extension to the specified one
+* recursive actions
+* run on various operating systems (Gnu/Linux, *BSD, Microsoft Windows, ...)
+* 100% GPL, free software
+
+Renamer official website is available at: http://renamer.bounga.org
+
+=== What you need
+
+To install Renamer, you must have:
+* An operating system where a Ruby interpretor (>= 1.8) is available (http://www.ruby-lang.org)
+* RubyGem packaging system (>= 0.8.0) (http://rubygems.rubyforge.org)
+* "root" privileges on your system
+
+== Installation
+
+Renamer package can be downloaded at: http://rubyforge.org/frs/?group_id=1450.
+
+Two options are offer to you. You can download the gem and install it using the gem command:
+
+<tt>$ sudo gem install Renamer-X.X.X.gem</tt>
+
+where <em>X.X.X</em> has to be replace by the gem version number.
+
+Or you can use gem to automatically download and install the lastest release of Renamer with the following commands :
+
+<tt>$ sudo gem install Renamer</tt>
+
+Developers can be interested in downloading the latest sources to be able to try or code on Renamer.
+But take care, these sources are development files and are reserved to advanced users. Using these
+sources Renamer could be very instable or even unusable. To get the latest sources, you should contact a
+developer, see: http://gna.org/project/memberlist.php?group=renamer. Renamer is maintain using {Git SCM}[http://git.or.cz/]
+so you should read about it if you want to develop on this project. You can download the lastest revision at http://github.com/Bounga/renamer/
+
+== Usage
+
+To use Renamer, you just have to type the following command in a shell:
+
+<tt>$ renamer [OPTION] filename</tt>
+
+Available options are described in the next section. You can give one or more filenames as parameter and
+you can use regexp and globs if your shell support it.
+
+=== Command-line options
+
+Available options for Renamer are:
+* -d, --downcase   : Downcase filenames
+* -u, --upcase     : Upcase filenames
+* -c, --capitalize : Capitalize filenames
+* -w, --word       : Capitalize each words in filenames
+* --downcase_ext   : Downcase filename extensions
+* --upcase_ext     : Upcase filename extensions
+* -s, --space      : Delete spaces in filenames
+* -U, --underscore : Replace underscores by spaces in filenames
+* -b, --basename   : Rename filenames using the specified basename followed by an incremental number
+* -e, --ext        : Rename filenames from their actual extension to the specified one
+* -r, --recursive  : Run Renamer recursively across directories
+* -o, --overwrite  : Overwrite existing files if needed
+* -V, --verbose    : Run Renamer in verbose mode (quiet by default)
+* -h, --help       : Show some help
+* -v, --version    : Show Renamer version
+* -l, --license    : Show some information about Renamer license
+
+== Authors / Support
+
+=== Authors
+
+Renamer is developed by :
+* Nicolas Cavigneaux <nico@bounga.org> - http://www.bounga.org
+
+=== Get support
+
+Before asking for any support, please consider reading the Renamer documentation and the FAQ.
+The documentation and the FAQ are available in the gem package and on the {official website}[http://rubyforge.org/projects/renamer/].
+
+* IRC support:
+    - server : irc.freenode.net
+    - channel : #bounga
+* More details are available on the Renamer website
+
+=== Copyright
+
+This manual documents Renamer software, it's part of Renamer.
+
+Copyright (c) 2004-2008 Nicolas Cavigneaux <nico@bounga.org>
+
+This document can be use under the terms of the {GNU General Public License}[http://www.gnu.org/copyleft/gpl.html], version 3 or later.
