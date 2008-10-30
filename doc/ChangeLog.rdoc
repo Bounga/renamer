@@ -3,11 +3,13 @@
 
 === Renamer 0.5.0
 
-2008-10-22 Nicolas Cavigneaux <nico@bounga.org>
+2008-10-30 Nicolas Cavigneaux <nico@bounga.org>
 
 	* Improved Rakefile
 	* Now explicitly use RDoc format for documentation
 	* Updated infos
+	* Added current date/time renaming
+	* Added renaming by delete the "n" first/last characters
 
 === Renamer 0.4.4
 

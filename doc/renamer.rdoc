@@ -80,14 +80,18 @@ Available options for Renamer are:
 * --upcase_ext     : Upcase filename extensions
 * -s, --space      : Delete spaces in filenames
 * -U, --underscore : Replace underscores by spaces in filenames
-* -b, --basename   : Rename filenames using the specified basename followed by an incremental number
-* -e, --ext        : Rename filenames from their actual extension to the specified one
+* --date		   : Add current date to the beginning of filenames
+* --datetime	   : Add current datetime to the beginning of filenames
+* -b, --basename   : Rename file using the specified basename followed by an incremental number
+* -e, --ext        : Rename file from their actual extension to the specified one
+* -f, --trim-first : Rename file by trimming first n characters
+* -l, --trim-last  : Rename file by trimming last n characters
 * -r, --recursive  : Run Renamer recursively across directories
 * -o, --overwrite  : Overwrite existing files if needed
 * -V, --verbose    : Run Renamer in verbose mode (quiet by default)
 * -h, --help       : Show some help
 * -v, --version    : Show Renamer version
-* -l, --license    : Show some information about Renamer license
+* -L, --license    : Show some information about Renamer license
 
 == Authors / Support
 

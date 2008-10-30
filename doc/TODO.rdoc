@@ -8,9 +8,6 @@ http://bounga.lighthouseapp.com/projects/18642-renamer/tickets/new with <em>feat
 
 === Before next release
 
-* Add a method to rename files using current date/time
-* Add a method to delete the "n" first/last characters
-
 === Future releases
 
 * Any idea ? Feel free to contact developers
