@@ -138,8 +138,8 @@ when :trim_first
   r.trim_first(arg)
 when :trim_last
   r.trim_last(arg)
-when :trim_last
+when :date
   r.current_date(Time.now)
-when :trim_last
+when :datetime
   r.current_datetime(Time.now)
 end
