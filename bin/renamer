@@ -96,7 +96,7 @@ opts.separator _("Common options:")
 
 opts.on_tail("-h", "--help", _("Show this help")) { puts opts.to_s; exit(0) }
 opts.on("-v", "--version", _("Show %s version") % Const::NAME) { puts Const::NAME + " v" + Const::VER; exit(0) }
-opts.on("-l", "--license", _("Show some information about %s license") % Const::NAME) { puts Const::LICENSE; exit(0) }
+opts.on("-L", "--license", _("Show some information about %s license") % Const::NAME) { puts Const::LICENSE; exit(0) }
 opts.on("-V", "--verbose", _("Run %s in verbose mode (quiet by default)") % Const::NAME) { $VERBOSE = true }
 
 ###################
