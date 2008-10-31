@@ -18,25 +18,8 @@
   Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 =end
 
-# Loading needed libs
-begin
-    require 'rubygems'
-rescue LoadError
-    warn "Not using RubyGems" if $DEBUG
-end
-
-$:.unshift(File.dirname(__FILE__) + "/../lib/")
-
-require 'test/unit'
-require 'rubygems'
-require 'gettext'
-require 'tempfile'
-require 'fileutils'
-require 'const'
-require 'renamer'
-
-# Testing
-class TestRenamer < Test::Unit::TestCase
+# Testing procs
+class TestRenamerProcs < Test::Unit::TestCase
     def setup
         $VERBOSE = nil
         @files = Array.new

@@ -18,7 +18,23 @@
   Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 =end
 
+
+# Loading needed libs
+begin
+    require 'rubygems'
+rescue LoadError
+    warn "Not using RubyGems" if $DEBUG
+end
+
 $:.unshift(File.dirname(__FILE__))
+$:.unshift(File.dirname(__FILE__) + "/../lib/")
 
 require 'test/unit'
-require 'tc_renamer'
+require 'rubygems'
+require 'gettext'
+require 'tempfile'
+require 'fileutils'
+require 'const'
+require 'renamer'
+
+require 'tc_renamer_procs'
