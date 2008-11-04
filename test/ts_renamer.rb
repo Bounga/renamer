@@ -36,5 +36,7 @@ require 'tempfile'
 require 'fileutils'
 require 'const'
 require 'renamer'
+require 'command_line'
 
 require 'tc_renamer_procs'
+require 'tc_renamer_command_line'

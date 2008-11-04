@@ -1,4 +1,5 @@
 class Renamer
+  # Process command-line arguments
   class CommandLine
     attr_accessor :action, :arg, :recursive, :overwrite, :opts, :filenames
     
@@ -13,6 +14,7 @@ class Renamer
     
     private
     
+    # Define available options
     def feed
       opts = OptionParser.new
       
@@ -48,6 +50,7 @@ class Renamer
       self.opts = opts
     end
     
+    # Parse arguments
     def parse
       if ARGV.empty?
           puts self.opts.to_s
@@ -57,6 +60,7 @@ class Renamer
       self.filenames = self.opts.parse(ARGV)
     end
     
+    # Send the requested job to Renamer
     def process
       r = Renamer.new(self.filenames, self.recursive, self.overwrite)
 
