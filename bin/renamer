@@ -58,12 +58,5 @@ include GetText
 p = File.join(File.dirname(__FILE__), "/../locale/")
 bindtextdomain("renamer", p)
 
-# Command Line Handling
-action, arg, $VERBOSE = nil
-recursive, overwrite = false
-
-opts = Renamer::CommandLine.feed
-filenames = Renamer::CommandLine.parse(opts)
-
-# Do the real job
-Renamer::CommandLine.process(action, arg, filenames, recursive, overwrite)
+# Command Line Handling and processing
+Renamer::CommandLine.new
