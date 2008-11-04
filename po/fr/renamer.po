@@ -90,14 +90,12 @@ msgid "to the NEW one"
 msgstr "à la NOUVELLE"
 
 #: bin/renamer:89
-#, fuzzy
 msgid "Rename FILENAMES by trimming first n characters"
-msgstr "Renomme FICHIERS de leur extension actuelle"
+msgstr "Renomme FICHIERS en enlevant les n premiers caractères"
 
 #: bin/renamer:90
-#, fuzzy
 msgid "Rename FILENAMES by trimming last n characters"
-msgstr "Renomme FICHIERS de leur extension actuelle"
+msgstr "Renomme FICHIERS en enlevant les n derniers caractères"
 
 #: bin/renamer:91
 msgid "Run %s recursively across directories"
