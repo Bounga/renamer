@@ -18,9 +18,9 @@
 =end
 
 module Const
-    NAME = "Renamer"
-    VER = "0.5.0"
-    LICENSE = "
+  NAME = "Renamer"
+  VER = "0.5.0"
+  LICENSE = "
   Copyright (c) 2004-2008 by Nicolas Cavigneaux <nico@bounga.org>
                 See COPIYNG for License detail.
 

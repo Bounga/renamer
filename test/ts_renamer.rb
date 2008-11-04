@@ -21,9 +21,9 @@
 
 # Loading needed libs
 begin
-    require 'rubygems'
+  require 'rubygems'
 rescue LoadError
-    warn "Not using RubyGems" if $DEBUG
+  warn "Not using RubyGems" if $DEBUG
 end
 
 $:.unshift(File.dirname(__FILE__))
