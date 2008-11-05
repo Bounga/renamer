@@ -34,8 +34,8 @@ class Renamer
       opts.on("--datetime", _("Add current datetime to the beginning of FILENAMES")) { self.action = :datetime }
       opts.on("-b", _("--basename BASENAME"), _("Rename FILENAMES using the specified"), _("BASENAME followed by an incremental number")) { |bn| self.action = :basename; self.arg = bn }
       opts.on("-e", _("--ext NEW"), _("Rename FILENAMES from their actual extension"), _("to the NEW one")) { |new| self.action = :ext; self.arg = new }
-      opts.on("-f", "--trim-first n", _("Rename FILENAMES by trimming first n characters")) { |n| self.action = :trim_first; self.arg = n }
-      opts.on("-l", "--trim-last n", _("Rename FILENAMES by trimming last n characters")) { |n| self.action = :trim_last; self.arg = n }
+      opts.on("-f", "--trim-first N", Integer, _("Rename FILENAMES by trimming first N characters")) { |n| self.action = :trim_first; self.arg = n }
+      opts.on("-l", "--trim-last N", Integer, _("Rename FILENAMES by trimming last N characters")) { |n| self.action = :trim_last; self.arg = n }
       opts.on("-r", "--recursive", _("Run %s recursively across directories") % Const::NAME) { self.recursive = true }
       opts.on("-o", "--overwrite", _("Overwrite existing files if needed") % Const::NAME) { self.overwrite = true }
 

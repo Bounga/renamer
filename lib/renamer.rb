@@ -17,11 +17,8 @@
   Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 =end
 
-########################
-# Initiliazing GetText #
-########################
+# Initiliazing GetText 
 include GetText
-# Searching the path to locale directory
 p = File.join(File.dirname(__FILE__), "/../locale/")
 bindtextdomain("renamer", p)
 
