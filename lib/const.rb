@@ -19,7 +19,7 @@
 
 module Const
   NAME = "Renamer"
-  VER = "0.5.1"
+  VER = "0.5.2"
   LICENSE = "
   Copyright (c) 2004-2008 by Nicolas Cavigneaux <nico@bounga.org>
                 See COPIYNG for License detail.
